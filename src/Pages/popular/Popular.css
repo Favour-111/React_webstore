@@ -1,0 +1,17 @@
+.Header {
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #787878;
+}
+.product-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .Header {
+    font-size: 1.3em;
+  }
+}
